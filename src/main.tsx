@@ -2,4 +2,11 @@ import ReactDOM from "react-dom/client"
 import App from "./App.tsx"
 import "normalize.css"
 import "tailwindcss/tailwind.css"
-ReactDOM.createRoot(document.getElementById("root")!).render(<App />)
+// @ts-ignore
+import { ClickToComponent } from "click-to-react-component"
+ReactDOM.createRoot(document.getElementById("root")!).render(
+  <>
+    <App />
+    <ClickToComponent />
+  </>
+)
