@@ -1,16 +1,18 @@
 // import dayjs from "dayjs"
 import { FC } from "react"
-import SlotTest from "~components/Slot"
-
+// import SlotTest from "~components/Slot"
+import { createSelectors } from "@/hooks/store"
+import MyApp from "./components/AC"
 function App() {
   // const currentDate = dayjs()
   return (
     <>
-      <SlotTest header={<Header />}>
+      {/* <SlotTest header={<Header />}>
         <h3 className=" text-red-300">我是插入数据1</h3>
         <h3 className=" text-red-400">我是插入数据2</h3>
         <h3 className=" text-red-500">我是插入数据3</h3>
-      </SlotTest>
+      </SlotTest> */}
+      <MyApp />
     </>
   )
 }
