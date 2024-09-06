@@ -1,7 +1,6 @@
 // import dayjs from "dayjs"
 import { FC } from "react"
 // import SlotTest from "~components/Slot"
-import { createSelectors } from "@/hooks/store"
 import MyApp from "./components/AC"
 function App() {
   // const currentDate = dayjs()

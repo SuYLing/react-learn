@@ -1,7 +1,11 @@
+import Filp from "@/components/filp/filp"
+
 const Home = () => {
   return (
     <>
-      <h1>Home</h1>
+      <h1>
+        <Filp></Filp>
+      </h1>
     </>
   )
 }

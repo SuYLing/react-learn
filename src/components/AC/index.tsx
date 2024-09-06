@@ -1,6 +1,5 @@
-import { useCounterStore, increament, decreament } from "@/stores/counter"
+import { decreament, increament, useCounterStore } from "@/stores/counter"
 import { Button } from "antd"
-import { createSelectors } from "@/hooks/store"
 const MyApp = () => {
   // 基本使用
   // const counter = useCounterStore((state) => state.counter)
